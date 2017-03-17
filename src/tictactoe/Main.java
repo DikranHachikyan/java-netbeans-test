@@ -18,7 +18,7 @@ public class Main {
      */
     public static void main(String[] args) {
         
-        Runnable run = new Runnable(){
+        Runnable s = new Runnable(){
             @Override
             public void run() {
                 Model model = new AppModel();
@@ -29,7 +29,7 @@ public class Main {
             }
             
         };
-        SwingUtilities.invokeLater(run);
+        SwingUtilities.invokeLater(s);
     }
     
 }
