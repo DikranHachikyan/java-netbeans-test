@@ -17,7 +17,8 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Runnable runner = new Runnable(){
+        
+        Runnable run = new Runnable(){
             @Override
             public void run() {
                 Model model = new AppModel();
@@ -28,7 +29,7 @@ public class Main {
             }
             
         };
-        SwingUtilities.invokeLater(runner);
+        SwingUtilities.invokeLater(run);
     }
     
 }
